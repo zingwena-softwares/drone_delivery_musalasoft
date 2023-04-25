@@ -4,6 +4,7 @@ import com.musalasoft.drone_delivery.model.Medication;
 import com.musalasoft.drone_delivery.model.enums.State;
 import com.musalasoft.drone_delivery.services.DroneDto;
 import com.musalasoft.drone_delivery.services.DroneService;
+import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
@@ -16,11 +17,12 @@ import java.util.stream.Collectors;
 
 @Validated
 @RestController
+@AllArgsConstructor
 @RequestMapping("/api/drone")
-@RequiredArgsConstructor
 public class DroneController {
 
 	private final DroneService droneService;
+
 
 	@GetMapping
 	public ResponseEntity<List<Drone>> getAllDrone() {

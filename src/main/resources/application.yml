@@ -27,3 +27,5 @@ logging:
 
 secret: somerandomsecret
 
+scheduler:
+  interval: 60000
