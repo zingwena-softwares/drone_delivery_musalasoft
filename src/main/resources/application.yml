@@ -1,0 +1,29 @@
+server:
+  port: 8088
+
+spring:
+  datasource:
+    hikari:
+      auto-commit: true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: lap23
+    url: jdbc:mysql://localhost:3306/dronedb?createDatabaseIfNotExist=true
+    username: warren
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2KB
+      max-request-size: 5000MB
+      max-file-size: 5000MB
+
+logging:
+  file:
+    path: logs/
+    name: drone_delivery.log
+
+secret: somerandomsecret
+

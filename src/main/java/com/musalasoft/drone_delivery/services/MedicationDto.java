@@ -1,6 +1,6 @@
 package com.musalasoft.drone_delivery.services;
 
-import com.musala.dronedispatchcontroller.domain.Drone;
+import com.musalasoft.drone_delivery.model.Drone;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 

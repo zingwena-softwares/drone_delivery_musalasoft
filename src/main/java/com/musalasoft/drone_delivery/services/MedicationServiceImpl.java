@@ -1,8 +1,6 @@
 package com.musalasoft.drone_delivery.services;
-
-import com.musala.dronedispatchcontroller.domain.Medication;
-import com.musala.dronedispatchcontroller.repository.MedicationRepository;
-import com.musala.dronedispatchcontroller.service.dto.MedicationDto;
+import com.musalasoft.drone_delivery.dao.MedicationDao;
+import com.musalasoft.drone_delivery.model.Medication;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
@@ -14,7 +12,7 @@ import javax.transaction.Transactional;
 @RequiredArgsConstructor
 public class MedicationServiceImpl  implements MedicationService{
 
-	private final MedicationRepository mR;
+	private final MedicationDao mR;
 	private final ModelMapper modelMapper;
 
 	@Override

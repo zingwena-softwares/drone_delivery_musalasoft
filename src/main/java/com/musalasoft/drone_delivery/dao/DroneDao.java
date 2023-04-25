@@ -1,14 +1,13 @@
-package com.musalasoft.drone_delivery.repository;
+package com.musalasoft.drone_delivery.dao;
 
-import com.musala.dronedispatchcontroller.domain.Drone;
-import com.musala.dronedispatchcontroller.domain.enums.State;
+import com.musalasoft.drone_delivery.model.Drone;
+import com.musalasoft.drone_delivery.model.enums.State;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
-
 import java.util.List;
 
-public interface DroneRepository  extends JpaRepository<Drone, String> {
+public interface DroneDao extends JpaRepository<Drone, String> {
 
 	List<Drone> findByState(State state);
 

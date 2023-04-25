@@ -1,0 +1,80 @@
+2023-04-25 17:11:33.231  INFO 84425 --- [main] c.m.d.DroneDeliveryApplication           : Starting DroneDeliveryApplication using Java 16.0.2 on pavilion with PID 84425 (/home/warren/Documents/drone_delivery_musalasoft/target/classes started by warren in /home/warren/Documents/drone_delivery_musalasoft)
+2023-04-25 17:11:33.234  INFO 84425 --- [main] c.m.d.DroneDeliveryApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-04-25 17:11:33.965  INFO 84425 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-25 17:11:34.032  INFO 84425 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+2023-04-25 17:11:34.537  INFO 84425 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2023-04-25 17:11:34.546  INFO 84425 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-25 17:11:34.546  INFO 84425 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-25 17:11:34.653  INFO 84425 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-25 17:11:34.654  INFO 84425 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1256 ms
+2023-04-25 17:11:34.834  INFO 84425 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-25 17:11:34.882  INFO 84425 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-25 17:11:35.093  INFO 84425 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-25 17:11:35.200  INFO 84425 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-25 17:11:35.786  INFO 84425 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-25 17:11:35.807  INFO 84425 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-25 17:11:44.013  INFO 84425 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-25 17:11:44.038  INFO 84425 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-25 17:11:44.412  WARN 84425 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'droneController' defined in file [/home/warren/Documents/drone_delivery_musalasoft/target/classes/com/musalasoft/drone_delivery/api/DroneController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'droneServiceImpl' defined in file [/home/warren/Documents/drone_delivery_musalasoft/target/classes/com/musalasoft/drone_delivery/services/DroneServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 2; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'exceptionMessageCreator' defined in file [/home/warren/Documents/drone_delivery_musalasoft/target/classes/com/musalasoft/drone_delivery/exception/ExceptionMessageCreator.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.util.Locale' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-04-25 17:11:44.412  INFO 84425 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-25 17:11:44.413  INFO 84425 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-25 17:11:44.418  INFO 84425 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-25 17:11:44.420  INFO 84425 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-25 17:11:44.427  INFO 84425 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-25 17:11:44.441 ERROR 84425 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.musalasoft.drone_delivery.exception.ExceptionMessageCreator required a bean of type 'java.util.Locale' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'java.util.Locale' in your configuration.
+
+2023-04-25 17:15:31.959  INFO 84850 --- [main] c.m.d.DroneDeliveryApplication           : Starting DroneDeliveryApplication using Java 16.0.2 on pavilion with PID 84850 (/home/warren/Documents/drone_delivery_musalasoft/target/classes started by warren in /home/warren/Documents/drone_delivery_musalasoft)
+2023-04-25 17:15:31.962  INFO 84850 --- [main] c.m.d.DroneDeliveryApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-04-25 17:15:32.557  INFO 84850 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-25 17:15:32.601  INFO 84850 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 2 JPA repository interfaces.
+2023-04-25 17:15:33.022  INFO 84850 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2023-04-25 17:15:33.030  INFO 84850 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-25 17:15:33.030  INFO 84850 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-25 17:15:33.131  INFO 84850 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-25 17:15:33.132  INFO 84850 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1116 ms
+2023-04-25 17:15:33.265  INFO 84850 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-25 17:15:33.295  INFO 84850 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-25 17:15:33.404  INFO 84850 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-25 17:15:33.496  INFO 84850 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-25 17:15:33.756  INFO 84850 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-25 17:15:33.777  INFO 84850 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-25 17:15:34.287  INFO 84850 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-25 17:15:34.292  INFO 84850 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-25 17:15:34.630  WARN 84850 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'droneController' defined in file [/home/warren/Documents/drone_delivery_musalasoft/target/classes/com/musalasoft/drone_delivery/api/DroneController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'droneServiceImpl' defined in file [/home/warren/Documents/drone_delivery_musalasoft/target/classes/com/musalasoft/drone_delivery/services/DroneServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 2; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'exceptionMessageCreator' defined in file [/home/warren/Documents/drone_delivery_musalasoft/target/classes/com/musalasoft/drone_delivery/exception/ExceptionMessageCreator.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.util.Locale' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-04-25 17:15:34.630  INFO 84850 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-25 17:15:34.631  INFO 84850 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-25 17:15:34.638  INFO 84850 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-25 17:15:34.640  INFO 84850 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-25 17:15:34.650  INFO 84850 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-25 17:15:34.674 ERROR 84850 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.musalasoft.drone_delivery.exception.ExceptionMessageCreator required a bean of type 'java.util.Locale' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'java.util.Locale' in your configuration.
+

@@ -1,13 +1,11 @@
 package com.musalasoft.drone_delivery.services;
-
-import com.musala.dronedispatchcontroller.domain.Drone;
-import com.musala.dronedispatchcontroller.domain.Medication;
-import com.musala.dronedispatchcontroller.domain.enums.State;
-import com.musala.dronedispatchcontroller.exception.ClientException;
-import com.musala.dronedispatchcontroller.exception.ExceptionMessageCreator;
-import com.musala.dronedispatchcontroller.repository.DroneRepository;
-import com.musala.dronedispatchcontroller.repository.MedicationRepository;
-import com.musala.dronedispatchcontroller.service.dto.DroneDto;
+import com.musalasoft.drone_delivery.dao.DroneDao;
+import com.musalasoft.drone_delivery.dao.MedicationDao;
+import com.musalasoft.drone_delivery.exception.ClientException;
+import com.musalasoft.drone_delivery.exception.ExceptionMessageCreator;
+import com.musalasoft.drone_delivery.model.Drone;
+import com.musalasoft.drone_delivery.model.Medication;
+import com.musalasoft.drone_delivery.model.enums.State;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
@@ -21,7 +19,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.logging.Logger;
 
-import static com.musala.dronedispatchcontroller.service.support.ServiceConstants.*;
+import static com.musalasoft.drone_delivery.constants.ServiceConstants.*;
 
 @Service
 @Transactional
@@ -29,15 +27,15 @@ import static com.musala.dronedispatchcontroller.service.support.ServiceConstant
 @Slf4j
 public class DroneServiceImpl implements DroneService {
 
-	private final DroneRepository dR;
-	private final MedicationRepository mR;
+	private final DroneDao dR;
+	private final MedicationDao mR;
 	private final ExceptionMessageCreator messageCreator;
 	private final ModelMapper modelMapper;
 
 	static final Logger LOGGER = Logger.getLogger(DroneServiceImpl.class.getName());
 
 	@Override
-	public List<Drone>  getAllDrones() {
+	public List<Drone> getAllDrones() {
 		return dR.findAll();
 	};
 
