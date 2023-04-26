@@ -1,12 +1,12 @@
 package com.musalasoft.drone_delivery.service;
 
-import com.musalasoft.drone_delivery.dao.DroneDao;
-import com.musalasoft.drone_delivery.dao.MedicationDao;
 import com.musalasoft.drone_delivery.exception.ClientException;
 import com.musalasoft.drone_delivery.exception.ExceptionMessageCreator;
 import com.musalasoft.drone_delivery.model.Drone;
 import com.musalasoft.drone_delivery.model.Medication;
 import com.musalasoft.drone_delivery.model.enums.State;
+import com.musalasoft.drone_delivery.repository.DroneRepo;
+import com.musalasoft.drone_delivery.repository.MedicationRepo;
 import com.musalasoft.drone_delivery.service.dto.DroneDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -29,8 +29,8 @@ import static com.musalasoft.drone_delivery.constants.ServiceConstants.*;
 @Slf4j
 public class DroneServiceImpl implements DroneService {
 
-	private final DroneDao dR;
-	private final MedicationDao mR;
+	private final DroneRepo droneRepo;
+	private final MedicationRepo medicationRepo;
 	private final ExceptionMessageCreator messageCreator;
 	private final ModelMapper modelMapper;
 
@@ -38,17 +38,17 @@ public class DroneServiceImpl implements DroneService {
 
 	@Override
 	public List<Drone>  getAllDrones() {
-		return dR.findAll();
+		return droneRepo.findAll();
 	};
 
 	@Override
 	public Integer getCapacityForSerial(String serial) {
-		return dR.getCapacityForSerial(serial);
+		return droneRepo.getCapacityForSerial(serial);
 	}
 
 	@Override
 	public List<Drone> getDroneByState(State state){
-		return dR.findByState(state);
+		return droneRepo.findByState(state);
 	};
 
 	/*
@@ -58,11 +58,11 @@ public class DroneServiceImpl implements DroneService {
 	* */
 	@Override
 	public  String  loadDroneWithMedications(String droneSerial, List<String> medicationCodes) {
-		Drone d = dR.findById(droneSerial).orElseThrow(() -> ClientException.of(messageCreator.createMessage(DRONE_SERIAL_NUMBER_NOT_FOUND)));
+		Drone d = droneRepo.findById(droneSerial).orElseThrow(() -> ClientException.of(messageCreator.createMessage(DRONE_SERIAL_NUMBER_NOT_FOUND)));
 		medicationCodes.forEach(mC -> {
-			Medication m = mR.findById(mC).orElseThrow(() -> ClientException.of(messageCreator.createMessage(MEDICATION_CODE_NOT_FOUND)));
+			Medication m = medicationRepo.findById(mC).orElseThrow(() -> ClientException.of(messageCreator.createMessage(MEDICATION_CODE_NOT_FOUND)));
 			m.setDrone(d);
-			mR.saveAndFlush(m);
+			medicationRepo.saveAndFlush(m);
 			int newWeight = d.getWeight() + m.getWeight();
 			if (newWeight < WEIGHT_LIMIT) {
 				d.setWeight(newWeight);
@@ -76,24 +76,24 @@ public class DroneServiceImpl implements DroneService {
 				// we don't set status as LOADED as we might try to load a lighter medication
 				ClientException.of(messageCreator.createMessage(MEDICATION_OVERLOAD)) ;
 		});
-		dR.saveAndFlush(d);
+		droneRepo.saveAndFlush(d);
 		return messageCreator.createMessage(DRONE_LOADED);
 	}
 
 	@Override
 	public List<Medication> getDroneMedications(String droneSerial) {
-		Drone d = dR.findById(droneSerial).orElseThrow(() -> ClientException.of(messageCreator.createMessage(DRONE_SERIAL_NUMBER_NOT_FOUND)));
-		return mR.findByDrone(d);
+		Drone d = droneRepo.findById(droneSerial).orElseThrow(() -> ClientException.of(messageCreator.createMessage(DRONE_SERIAL_NUMBER_NOT_FOUND)));
+		return medicationRepo.findByDrone(d);
 	}
 
 	@Override
 	public Drone registerDrone(DroneDto droneDto) {
-		if (dR.count() == DRONE_FLEET_LIMIT)
+		if (droneRepo.count() == DRONE_FLEET_LIMIT)
 			ClientException.of(messageCreator.createMessage(DRONE_FLEET_SIZE_EXCEEDED));
 		Drone drone = modelMapper.map(droneDto, Drone.class);
 		drone.setWeight(0);
 		drone.setState(State.IDLE);
-		return dR.saveAndFlush(drone);
+		return droneRepo.saveAndFlush(drone);
 	}
 
 	@Scheduled(fixedRateString = "${scheduler.interval}")
