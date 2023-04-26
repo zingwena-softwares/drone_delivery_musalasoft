@@ -1,4 +1,4 @@
-package com.musalasoft.drone_delivery.services;
+package com.musalasoft.drone_delivery.service.dto;
 
 import com.musalasoft.drone_delivery.model.Drone;
 import lombok.Getter;

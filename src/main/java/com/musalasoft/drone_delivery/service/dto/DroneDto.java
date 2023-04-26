@@ -1,9 +1,8 @@
-package com.musalasoft.drone_delivery.services;
+package com.musalasoft.drone_delivery.service.dto;
 
 import com.musalasoft.drone_delivery.model.enums.Model;
 import com.musalasoft.drone_delivery.model.enums.State;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
@@ -12,7 +11,6 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;
 
 @Getter
-@NoArgsConstructor
 public class DroneDto {
 
 	@Size(min =  1, max =  100)

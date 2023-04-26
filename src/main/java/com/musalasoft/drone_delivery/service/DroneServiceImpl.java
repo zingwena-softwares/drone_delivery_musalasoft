@@ -1,4 +1,5 @@
-package com.musalasoft.drone_delivery.services;
+package com.musalasoft.drone_delivery.service;
+
 import com.musalasoft.drone_delivery.dao.DroneDao;
 import com.musalasoft.drone_delivery.dao.MedicationDao;
 import com.musalasoft.drone_delivery.exception.ClientException;
@@ -6,7 +7,8 @@ import com.musalasoft.drone_delivery.exception.ExceptionMessageCreator;
 import com.musalasoft.drone_delivery.model.Drone;
 import com.musalasoft.drone_delivery.model.Medication;
 import com.musalasoft.drone_delivery.model.enums.State;
-import lombok.AllArgsConstructor;
+import com.musalasoft.drone_delivery.service.dto.DroneDto;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
 import org.springframework.scheduling.annotation.Async;
@@ -23,8 +25,8 @@ import static com.musalasoft.drone_delivery.constants.ServiceConstants.*;
 
 @Service
 @Transactional
+@RequiredArgsConstructor
 @Slf4j
-@AllArgsConstructor
 public class DroneServiceImpl implements DroneService {
 
 	private final DroneDao dR;
@@ -32,12 +34,10 @@ public class DroneServiceImpl implements DroneService {
 	private final ExceptionMessageCreator messageCreator;
 	private final ModelMapper modelMapper;
 
-
-
 	static final Logger LOGGER = Logger.getLogger(DroneServiceImpl.class.getName());
 
 	@Override
-	public List<Drone> getAllDrones() {
+	public List<Drone>  getAllDrones() {
 		return dR.findAll();
 	};
 

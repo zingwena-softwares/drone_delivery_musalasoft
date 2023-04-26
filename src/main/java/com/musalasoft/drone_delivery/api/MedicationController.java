@@ -1,7 +1,7 @@
 package com.musalasoft.drone_delivery.api;
 import com.musalasoft.drone_delivery.model.Medication;
-import com.musalasoft.drone_delivery.services.MedicationDto;
-import com.musalasoft.drone_delivery.services.MedicationService;
+import com.musalasoft.drone_delivery.service.MedicationService;
+import com.musalasoft.drone_delivery.service.dto.MedicationDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;

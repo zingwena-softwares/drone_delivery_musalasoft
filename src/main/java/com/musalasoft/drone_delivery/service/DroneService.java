@@ -1,12 +1,10 @@
-package com.musalasoft.drone_delivery.services;
-
+package com.musalasoft.drone_delivery.service;
 import com.musalasoft.drone_delivery.model.Drone;
 import com.musalasoft.drone_delivery.model.Medication;
 import com.musalasoft.drone_delivery.model.enums.State;
-import org.springframework.stereotype.Service;
+import com.musalasoft.drone_delivery.service.dto.DroneDto;
 
 import java.util.List;
-
 
 public interface DroneService {
 

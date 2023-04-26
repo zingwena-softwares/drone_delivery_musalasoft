@@ -1,7 +1,8 @@
-package com.musalasoft.drone_delivery.services;
+package com.musalasoft.drone_delivery.service;
 
 
 import com.musalasoft.drone_delivery.model.Medication;
+import com.musalasoft.drone_delivery.service.dto.MedicationDto;
 
 public interface MedicationService {
 

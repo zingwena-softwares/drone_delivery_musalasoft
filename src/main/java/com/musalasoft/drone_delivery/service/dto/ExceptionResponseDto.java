@@ -1,4 +1,4 @@
-package com.musalasoft.drone_delivery.services;
+package com.musalasoft.drone_delivery.service.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -7,4 +7,5 @@ import lombok.Getter;
 @AllArgsConstructor
 public class ExceptionResponseDto {
 	private final String message;
+
 }

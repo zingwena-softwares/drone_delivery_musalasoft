@@ -2,10 +2,9 @@ package com.musalasoft.drone_delivery.api;
 import com.musalasoft.drone_delivery.model.Drone;
 import com.musalasoft.drone_delivery.model.Medication;
 import com.musalasoft.drone_delivery.model.enums.State;
-import com.musalasoft.drone_delivery.services.DroneDto;
-import com.musalasoft.drone_delivery.services.DroneService;
+import com.musalasoft.drone_delivery.service.DroneService;
+import com.musalasoft.drone_delivery.service.dto.DroneDto;
 import lombok.AllArgsConstructor;
-import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
@@ -18,7 +17,7 @@ import java.util.stream.Collectors;
 @Validated
 @RestController
 @AllArgsConstructor
-@RequestMapping("/api/drone")
+@RequestMapping("api/drone")
 public class DroneController {
 
 	private final DroneService droneService;
@@ -40,8 +39,8 @@ public class DroneController {
 		result.addAll(droneService.getDroneByState(State.IDLE));
 		result.addAll(droneService.getDroneByState(State.LOADING));
 		result = result.stream()
-			.filter(drone -> drone.getCapacity() >= 25)
-			.collect(Collectors.toList());
+				.filter(drone -> drone.getCapacity() >= 25)
+				.collect(Collectors.toList());
 		return ResponseEntity.ok().body(result);
 	}
 
@@ -58,6 +57,7 @@ public class DroneController {
 	@PostMapping("/register")
 	public ResponseEntity<Drone> registerDrone(@RequestBody @Valid DroneDto droneDto) {
 		return ResponseEntity.ok(droneService.registerDrone(droneDto));
+
 	}
 
 	@PutMapping("/loaddrone")
