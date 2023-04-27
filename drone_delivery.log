@@ -3861,3 +3861,318 @@ Caused by: java.lang.IllegalStateException: Session/EntityManager is closed
 2023-04-27 18:10:12.117  INFO 102073 --- [task-4] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
 2023-04-27 18:11:12.111  INFO 102073 --- [task-5] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:11
 2023-04-27 18:11:12.118  INFO 102073 --- [task-5] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:12:12.111  INFO 102073 --- [task-6] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:12
+2023-04-27 18:12:12.119  INFO 102073 --- [task-6] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:13:12.111  INFO 102073 --- [task-7] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:13
+2023-04-27 18:13:12.119  INFO 102073 --- [task-7] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:14:12.111  INFO 102073 --- [task-8] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:14
+2023-04-27 18:14:12.121  INFO 102073 --- [task-8] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:15:12.110  INFO 102073 --- [task-9] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:15
+2023-04-27 18:15:12.119  INFO 102073 --- [task-9] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:16:12.110  INFO 102073 --- [task-10] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:16
+2023-04-27 18:16:12.116  INFO 102073 --- [task-10] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:17:12.110  INFO 102073 --- [task-11] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:17
+2023-04-27 18:17:12.116  INFO 102073 --- [task-11] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:18:12.109  INFO 102073 --- [task-12] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:18
+2023-04-27 18:18:12.115  INFO 102073 --- [task-12] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:19:06.465  INFO 102073 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-27 18:19:06.465  INFO 102073 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-27 18:19:06.466  INFO 102073 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-27 18:19:12.111  INFO 102073 --- [task-13] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:19
+2023-04-27 18:19:12.119  INFO 102073 --- [task-13] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:20:12.111  INFO 102073 --- [task-14] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:20
+2023-04-27 18:20:12.117  INFO 102073 --- [task-14] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:21:12.110  INFO 102073 --- [task-15] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:21
+2023-04-27 18:21:12.118  INFO 102073 --- [task-15] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:21:12.119  INFO 102073 --- [task-15] c.m.d.service.DroneServiceImpl           : serial number - w788882pl, capacity - 100
+2023-04-27 18:21:12.120  INFO 102073 --- [task-15] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:22:12.112  INFO 102073 --- [task-16] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:22
+2023-04-27 18:22:12.123  INFO 102073 --- [task-16] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:22:12.124  INFO 102073 --- [task-16] c.m.d.service.DroneServiceImpl           : serial number - w788882pl, capacity - 100
+2023-04-27 18:22:12.125  INFO 102073 --- [task-16] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:23:12.108  INFO 102073 --- [task-17] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:23
+2023-04-27 18:23:12.112  INFO 102073 --- [task-17] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:23:12.113  INFO 102073 --- [task-17] c.m.d.service.DroneServiceImpl           : serial number - w788882pl, capacity - 100
+2023-04-27 18:23:12.113  INFO 102073 --- [task-17] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:24:12.110  INFO 102073 --- [task-18] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:24
+2023-04-27 18:24:12.117  INFO 102073 --- [task-18] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:24:12.118  INFO 102073 --- [task-18] c.m.d.service.DroneServiceImpl           : serial number - w788882pl, capacity - 100
+2023-04-27 18:24:12.118  INFO 102073 --- [task-18] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:25:12.110  INFO 102073 --- [task-19] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:25
+2023-04-27 18:25:12.118  INFO 102073 --- [task-19] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:25:12.118  INFO 102073 --- [task-19] c.m.d.service.DroneServiceImpl           : serial number - w788882pl, capacity - 100
+2023-04-27 18:25:12.118  INFO 102073 --- [task-19] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:26:12.109  INFO 102073 --- [task-20] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:26
+2023-04-27 18:26:12.113  INFO 102073 --- [task-20] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:26:12.113  INFO 102073 --- [task-20] c.m.d.service.DroneServiceImpl           : serial number - w788882pl, capacity - 100
+2023-04-27 18:26:12.113  INFO 102073 --- [task-20] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:27:12.110  INFO 102073 --- [task-21] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:27
+2023-04-27 18:27:12.117  INFO 102073 --- [task-21] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:27:12.118  INFO 102073 --- [task-21] c.m.d.service.DroneServiceImpl           : serial number - w788882pl, capacity - 100
+2023-04-27 18:27:12.119  INFO 102073 --- [task-21] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:27:13.498  WARN 102073 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2023-04-27 18:28:12.109  INFO 102073 --- [task-22] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:28
+2023-04-27 18:28:12.113  INFO 102073 --- [task-22] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:28:12.113  INFO 102073 --- [task-22] c.m.d.service.DroneServiceImpl           : serial number - w788882pl, capacity - 100
+2023-04-27 18:28:12.113  INFO 102073 --- [task-22] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:29:12.110  INFO 102073 --- [task-23] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:29
+2023-04-27 18:29:12.117  INFO 102073 --- [task-23] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:29:12.118  INFO 102073 --- [task-23] c.m.d.service.DroneServiceImpl           : serial number - w788882pl, capacity - 100
+2023-04-27 18:29:12.119  INFO 102073 --- [task-23] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:30:12.107  INFO 102073 --- [task-24] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:30
+2023-04-27 18:30:12.109  INFO 102073 --- [task-24] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:30:12.109  INFO 102073 --- [task-24] c.m.d.service.DroneServiceImpl           : serial number - w788882pl, capacity - 100
+2023-04-27 18:30:12.109  INFO 102073 --- [task-24] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:31:12.110  INFO 102073 --- [task-25] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:31
+2023-04-27 18:31:12.117  INFO 102073 --- [task-25] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:31:12.118  INFO 102073 --- [task-25] c.m.d.service.DroneServiceImpl           : serial number - w788882pl, capacity - 100
+2023-04-27 18:31:12.118  INFO 102073 --- [task-25] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:32:07.970  WARN 102073 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `com.musalasoft.drone_delivery.model.Drone` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('w788882pl'); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `com.musalasoft.drone_delivery.model.Drone` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('w788882pl')<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 6, column: 18] (through reference chain: com.musalasoft.drone_delivery.service.dto.MedicationDto["drone"])]
+2023-04-27 18:32:12.110  INFO 102073 --- [task-26] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:32
+2023-04-27 18:32:12.117  INFO 102073 --- [task-26] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:32:12.118  INFO 102073 --- [task-26] c.m.d.service.DroneServiceImpl           : serial number - w788882pl, capacity - 100
+2023-04-27 18:32:12.119  INFO 102073 --- [task-26] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:33:12.111  INFO 102073 --- [task-27] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:33
+2023-04-27 18:33:12.119  INFO 102073 --- [task-27] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:33:12.120  INFO 102073 --- [task-27] c.m.d.service.DroneServiceImpl           : serial number - w788882pl, capacity - 100
+2023-04-27 18:33:12.121  INFO 102073 --- [task-27] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:33:46.432 ERROR 102073 --- [http-nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.musalasoft.drone_delivery.model.Medication["drone"]->com.musalasoft.drone_delivery.model.Drone$HibernateProxy$cVlMk4rg["hibernateLazyInitializer"])] with root cause
+
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.musalasoft.drone_delivery.model.Medication["drone"]->com.musalasoft.drone_delivery.model.Drone$HibernateProxy$cVlMk4rg["hibernateLazyInitializer"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77) ~[jackson-databind-2.13.5.jar:2.13.5]
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1300) ~[jackson-databind-2.13.5.jar:2.13.5]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400) ~[jackson-databind-2.13.5.jar:2.13.5]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:46) ~[jackson-databind-2.13.5.jar:2.13.5]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:29) ~[jackson-databind-2.13.5.jar:2.13.5]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.13.5.jar:2.13.5]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774) ~[jackson-databind-2.13.5.jar:2.13.5]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.13.5.jar:2.13.5]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.13.5.jar:2.13.5]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774) ~[jackson-databind-2.13.5.jar:2.13.5]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.13.5.jar:2.13.5]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480) ~[jackson-databind-2.13.5.jar:2.13.5]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319) ~[jackson-databind-2.13.5.jar:2.13.5]
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1518) ~[jackson-databind-2.13.5.jar:2.13.5]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1007) ~[jackson-databind-2.13.5.jar:2.13.5]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:456) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:219) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[tomcat-embed-core-9.0.74.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.74.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2023-04-27 18:34:12.110  INFO 102073 --- [task-28] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:34
+2023-04-27 18:34:12.117  INFO 102073 --- [task-28] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:34:12.117  INFO 102073 --- [task-28] c.m.d.service.DroneServiceImpl           : serial number - w788882pl, capacity - 100
+2023-04-27 18:34:12.118  INFO 102073 --- [task-28] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:34:53.423  WARN 102073 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): expected a value; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): expected a value<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 8, column: 6]]
+2023-04-27 18:35:12.110  INFO 102073 --- [task-29] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:35
+2023-04-27 18:35:12.117  INFO 102073 --- [task-29] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:35:12.117  INFO 102073 --- [task-29] c.m.d.service.DroneServiceImpl           : serial number - w788882pl, capacity - 100
+2023-04-27 18:35:12.118  INFO 102073 --- [task-29] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:36:12.110  INFO 102073 --- [task-30] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:36
+2023-04-27 18:36:12.116  INFO 102073 --- [task-30] c.m.d.service.DroneServiceImpl           : serial number - dronchik_45, capacity - 100
+2023-04-27 18:36:12.117  INFO 102073 --- [task-30] c.m.d.service.DroneServiceImpl           : serial number - w788882pl, capacity - 100
+2023-04-27 18:36:12.117  INFO 102073 --- [task-30] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:36:41.061  INFO 102073 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 18:36:41.062  INFO 102073 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-27 18:36:41.066  INFO 102073 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-27 18:37:34.304  INFO 103503 --- [main] c.m.d.DroneDeliveryApplication           : Starting DroneDeliveryApplication using Java 16.0.2 on pavilion with PID 103503 (/home/warren/Documents/drone_delivery_musalasoft/target/classes started by warren in /home/warren/Documents/drone_delivery_musalasoft)
+2023-04-27 18:37:34.308  INFO 103503 --- [main] c.m.d.DroneDeliveryApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-04-27 18:37:35.298  INFO 103503 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-27 18:37:35.366  INFO 103503 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
+2023-04-27 18:37:36.209  INFO 103503 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-27 18:37:36.227  INFO 103503 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-27 18:37:36.228  INFO 103503 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-27 18:37:36.410  INFO 103503 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-27 18:37:36.410  INFO 103503 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2021 ms
+2023-04-27 18:37:36.593  INFO 103503 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-27 18:37:36.637  INFO 103503 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-27 18:37:36.815  INFO 103503 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-27 18:37:36.971  INFO 103503 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-27 18:37:37.642  INFO 103503 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-27 18:37:37.720  INFO 103503 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-27 18:37:51.590  INFO 103503 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-27 18:37:51.619  INFO 103503 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 18:37:52.264  WARN 103503 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-27 18:37:52.645  INFO 103503 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-27 18:37:52.658  INFO 103503 --- [main] c.m.d.DroneDeliveryApplication           : Started DroneDeliveryApplication in 19.074 seconds (JVM running for 19.798)
+2023-04-27 18:37:52.676  INFO 103503 --- [task-1] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:37
+2023-04-27 18:38:52.661  INFO 103503 --- [task-2] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:38
+2023-04-27 18:39:01.694  INFO 103503 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-27 18:39:01.694  INFO 103503 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-27 18:39:01.696  INFO 103503 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-27 18:39:52.660  INFO 103503 --- [task-3] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:39
+2023-04-27 18:39:52.669  INFO 103503 --- [task-3] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-27 18:39:52.670  INFO 103503 --- [task-3] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:39:52.671  INFO 103503 --- [task-3] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-27 18:40:23.818  WARN 103503 --- [http-nio-8080-exec-1] o.s.c.s.ResourceBundleMessageSource      : ResourceBundle [messages/messages] not found for MessageSource: Can't find bundle for base name messages/messages, locale en
+2023-04-27 18:40:23.828 ERROR 103503 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.context.NoSuchMessageException: No message found under code 'drone_serial_number_not_found' for locale 'en'.] with root cause
+
+org.springframework.context.NoSuchMessageException: No message found under code 'drone_serial_number_not_found' for locale 'en'.
+	at org.springframework.context.support.AbstractMessageSource.getMessage(AbstractMessageSource.java:161) ~[spring-context-5.3.27.jar:5.3.27]
+	at com.musalasoft.drone_delivery.exception.ExceptionMessageCreator.createMessage(ExceptionMessageCreator.java:15) ~[classes/:na]
+	at com.musalasoft.drone_delivery.service.DroneServiceImpl.lambda$loadDroneWithMedications$0(DroneServiceImpl.java:58) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at com.musalasoft.drone_delivery.service.DroneServiceImpl.loadDroneWithMedications(DroneServiceImpl.java:58) ~[classes/:na]
+	at com.musalasoft.drone_delivery.service.DroneServiceImpl$$FastClassBySpringCGLIB$$25986cfd.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.27.jar:5.3.27]
+	at com.musalasoft.drone_delivery.service.DroneServiceImpl$$EnhancerBySpringCGLIB$$527ae7fc.loadDroneWithMedications(<generated>) ~[classes/:na]
+	at com.musalasoft.drone_delivery.api.DroneController.loadDroneWithMedication(DroneController.java:56) ~[classes/:na]
+	at com.musalasoft.drone_delivery.api.DroneController$$FastClassBySpringCGLIB$$f6783df9.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:123) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.27.jar:5.3.27]
+	at com.musalasoft.drone_delivery.api.DroneController$$EnhancerBySpringCGLIB$$3e552e3b.loadDroneWithMedication(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:558) ~[tomcat-embed-core-9.0.74.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.74.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2023-04-27 18:40:52.660  INFO 103503 --- [task-4] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:40
+2023-04-27 18:40:52.671  INFO 103503 --- [task-4] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-27 18:40:52.672  INFO 103503 --- [task-4] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:40:52.673  INFO 103503 --- [task-4] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-27 18:41:52.661  INFO 103503 --- [task-5] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:41
+2023-04-27 18:41:52.669  INFO 103503 --- [task-5] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-27 18:41:52.670  INFO 103503 --- [task-5] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:41:52.671  INFO 103503 --- [task-5] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-27 18:42:52.660  INFO 103503 --- [task-6] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:42
+2023-04-27 18:42:52.668  INFO 103503 --- [task-6] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-27 18:42:52.669  INFO 103503 --- [task-6] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:42:52.669  INFO 103503 --- [task-6] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-27 18:43:52.661  INFO 103503 --- [task-7] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:43
+2023-04-27 18:43:52.668  INFO 103503 --- [task-7] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-27 18:43:52.669  INFO 103503 --- [task-7] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:43:52.669  INFO 103503 --- [task-7] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-27 18:44:52.661  INFO 103503 --- [task-8] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:44
+2023-04-27 18:44:52.668  INFO 103503 --- [task-8] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-27 18:44:52.669  INFO 103503 --- [task-8] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:44:52.670  INFO 103503 --- [task-8] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-27 18:45:52.660  INFO 103503 --- [task-9] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:45
+2023-04-27 18:45:52.664  INFO 103503 --- [task-9] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-27 18:45:52.665  INFO 103503 --- [task-9] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:45:52.665  INFO 103503 --- [task-9] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-27 18:46:52.660  INFO 103503 --- [task-10] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:46
+2023-04-27 18:46:52.666  INFO 103503 --- [task-10] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-27 18:46:52.667  INFO 103503 --- [task-10] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:46:52.667  INFO 103503 --- [task-10] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-27 18:47:52.660  INFO 103503 --- [task-11] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:47
+2023-04-27 18:47:52.667  INFO 103503 --- [task-11] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-27 18:47:52.667  INFO 103503 --- [task-11] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:47:52.667  INFO 103503 --- [task-11] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-27 18:48:52.660  INFO 103503 --- [task-12] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:48
+2023-04-27 18:48:52.716  INFO 103503 --- [task-12] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-27 18:48:52.717  INFO 103503 --- [task-12] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:48:52.717  INFO 103503 --- [task-12] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-27 18:49:52.660  INFO 103503 --- [task-13] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:49
+2023-04-27 18:49:52.668  INFO 103503 --- [task-13] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-27 18:49:52.669  INFO 103503 --- [task-13] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:49:52.670  INFO 103503 --- [task-13] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-27 18:50:52.660  INFO 103503 --- [task-14] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:50
+2023-04-27 18:50:52.666  INFO 103503 --- [task-14] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-27 18:50:52.667  INFO 103503 --- [task-14] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:50:52.667  INFO 103503 --- [task-14] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
