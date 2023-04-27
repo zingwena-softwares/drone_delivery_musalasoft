@@ -29,4 +29,12 @@ public class MedicationDto {
 	private Integer weight;
 
 	private Drone drone;
+
+	public MedicationDto(String code, String name, String picture, Integer weight, Drone drone) {
+		this.code = code;
+		this.name = name;
+		this.picture = picture;
+		this.weight = weight;
+		this.drone = drone;
+	}
 }

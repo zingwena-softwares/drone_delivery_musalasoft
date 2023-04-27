@@ -12,5 +12,5 @@ public interface DroneRepo extends JpaRepository<Drone, String> {
 
 	List<Drone> findByState(State state);
 	@Query("SELECT  d.capacity FROM Drone d WHERE d.serialNumber = :serial")
-	Integer getCapacityForSerial(@Param("serial") String serial);
+	Integer getCapacityBySerial(@Param("serial") String serial);
 }

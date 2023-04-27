@@ -10,7 +10,7 @@ public interface DroneService {
 
 	List<Drone>  getAllDrones();
 
-	Integer getCapacityForSerial(String serialNumber);
+	Integer getCapacityBySerial(String serialNumber);
 
 	List<Drone>  getDroneByState(State state);
 

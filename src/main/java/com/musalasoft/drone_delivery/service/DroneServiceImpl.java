@@ -1,5 +1,4 @@
 package com.musalasoft.drone_delivery.service;
-
 import com.musalasoft.drone_delivery.exception.ClientException;
 import com.musalasoft.drone_delivery.exception.ExceptionMessageCreator;
 import com.musalasoft.drone_delivery.model.Drone;
@@ -14,13 +13,11 @@ import org.modelmapper.ModelMapper;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
-
 import javax.transaction.Transactional;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.logging.Logger;
-
 import static com.musalasoft.drone_delivery.constants.ServiceConstants.*;
 
 @Service
@@ -42,8 +39,8 @@ public class DroneServiceImpl implements DroneService {
 	};
 
 	@Override
-	public Integer getCapacityForSerial(String serial) {
-		return droneRepo.getCapacityForSerial(serial);
+	public Integer getCapacityBySerial(String serial) {
+		return droneRepo.getCapacityBySerial(serial);
 	}
 
 	@Override
@@ -77,7 +74,7 @@ public class DroneServiceImpl implements DroneService {
 				ClientException.of(messageCreator.createMessage(MEDICATION_OVERLOAD)) ;
 		});
 		droneRepo.saveAndFlush(d);
-		return messageCreator.createMessage(DRONE_LOADED);
+		return "Successful";
 	}
 
 	@Override

@@ -36,4 +36,14 @@ public class Medication {
 	@ManyToOne  (fetch = FetchType.LAZY)
 	@JoinColumn(name = "fk_drone")
 	private Drone drone;
+
+	public Medication(String code, String name, String picture, Integer weight, Drone drone) {
+		this.code = code;
+		this.name = name;
+		this.picture = picture;
+		this.weight = weight;
+		this.drone = drone;
+	}
+
+
 }

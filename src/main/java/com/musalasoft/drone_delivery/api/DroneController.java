@@ -19,10 +19,7 @@ import java.util.stream.Collectors;
 @AllArgsConstructor
 @RequestMapping("api/drone")
 public class DroneController {
-
 	private final DroneService droneService;
-
-
 	@GetMapping
 	public ResponseEntity<List<Drone>> getAllDrone() {
 		return ResponseEntity.ok().body(droneService.getAllDrones());
@@ -32,7 +29,6 @@ public class DroneController {
 	public ResponseEntity<List<Drone>> getDroneByState(@PathVariable State state) {
 		return ResponseEntity.ok().body(droneService.getDroneByState(state));
 	}
-
 	@GetMapping("/getavailable")
 	public ResponseEntity<List<Drone>> getAvailableDrones() {
 		List<Drone> result = new ArrayList<>();
@@ -43,23 +39,18 @@ public class DroneController {
 				.collect(Collectors.toList());
 		return ResponseEntity.ok().body(result);
 	}
-
 	@GetMapping("/getcapacitybyserial/{serial}")
 	public ResponseEntity<Integer> getCapacityForSerial(@PathVariable String serial) {
-		return ResponseEntity.ok().body(droneService.getCapacityForSerial(serial));
+		return ResponseEntity.ok().body(droneService.getCapacityBySerial(serial));
 	}
-
 	@GetMapping("/getmedications/{serial}")
 	public ResponseEntity<List<Medication>> getDroneMedications(@PathVariable String serial) {
 		return ResponseEntity.ok().body(droneService.getDroneMedications(serial));
 	}
-
 	@PostMapping("/register")
 	public ResponseEntity<Drone> registerDrone(@RequestBody @Valid DroneDto droneDto) {
 		return ResponseEntity.ok(droneService.registerDrone(droneDto));
-
 	}
-
 	@PutMapping("/loaddrone")
 	public ResponseEntity<String> loadDroneWithMedication(@RequestParam  String droneSerial, @RequestParam List<String> medicationCodes) {
 		return ResponseEntity.ok().body(droneService.loadDroneWithMedications(droneSerial, medicationCodes));

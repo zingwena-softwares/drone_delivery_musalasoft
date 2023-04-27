@@ -2,6 +2,7 @@ package com.musalasoft.drone_delivery.model;
 
 import com.musalasoft.drone_delivery.model.enums.Model;
 import com.musalasoft.drone_delivery.model.enums.State;
+import com.musalasoft.drone_delivery.service.dto.DroneDto;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -14,7 +15,7 @@ import javax.validation.constraints.Size;
 @Setter
 @Getter
 @NoArgsConstructor
-public class Drone {
+public class Drone{
 
 	@Id
 	@Size(min =  1, max =  100)
@@ -35,4 +36,12 @@ public class Drone {
 
 	@Enumerated(EnumType.STRING)
 	private Model model;
+
+	public Drone(String serialNumber, Integer weight, Integer capacity, State state, Model model) {
+		this.serialNumber = serialNumber;
+		this.weight = weight;
+		this.capacity = capacity;
+		this.state = state;
+		this.model = model;
+	}
 }

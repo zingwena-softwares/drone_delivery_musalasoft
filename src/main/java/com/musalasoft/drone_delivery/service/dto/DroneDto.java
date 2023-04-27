@@ -29,4 +29,15 @@ public class DroneDto {
 
 	@Enumerated(EnumType.STRING)
 	private Model model;
+
+	public DroneDto(String serialNumber, Integer weight, Integer capacity, State state, Model model) {
+		this.serialNumber = serialNumber;
+		this.weight = weight;
+		this.capacity = capacity;
+		this.state = state;
+		this.model = model;
+	}
+
+    public DroneDto() {
+    }
 }
