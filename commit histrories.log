@@ -1,0 +1,64 @@
+Author: zingwena-softwares <warrenzingwena@gmail.com>
+Date:   Fri Apr 28 12:07:08 2023 +0200
+
+    Help file, better api base url
+
+commit 6a95f53de9e7ba75f2643cb71fcb657a28ba460c
+Author: zingwena-softwares <warrenzingwena@gmail.com>
+Date:   Fri Apr 28 10:57:21 2023 +0200
+
+    add a postman collection
+
+commit 1d81e207e0b8fe1ac086c9a510e4ff38e9e381c5
+Author: zingwena-softwares <warrenzingwena@gmail.com>
+Date:   Fri Apr 28 10:09:01 2023 +0200
+
+    add author
+
+commit e94ff19f6607ce2d5b10a0615f9bda0f1e9b2d25
+Author: zingwena-softwares <warrenzingwena@gmail.com>
+Date:   Thu Apr 27 18:52:41 2023 +0200
+
+    add dummy data
+
+commit 74d35243ffe4c180758a82ca71b1c062c5fc70c2
+Author: zingwena-softwares <warrenzingwena@gmail.com>
+Date:   Thu Apr 27 18:12:28 2023 +0200
+
+    Adding Tests
+
+commit 6653a1f195398801094017d2c9725a3df528573a
+Author: zingwena-softwares <warrenzingwena@gmail.com>
+Date:   Wed Apr 26 13:45:47 2023 +0200
+
+    dao to more precise repo and remove the previous logs
+
+commit 84b6cab743e95f0bf2889440cf1bfcd7db45b00b
+Author: zingwena-softwares <warrenzingwena@gmail.com>
+Date:   Wed Apr 26 13:10:10 2023 +0200
+
+    restructuring code and configure the global beans
+
+commit 1abf707d01b5a98409ce834688ed13648c480834
+Author: zingwena-softwares <warrenzingwena@gmail.com>
+Date:   Tue Apr 25 18:34:33 2023 +0200
+
+    fix bean error creation in ExceptionMessageCreator
+
+commit dae46eddb0485a30f2cb101a6728e06f6b88a115
+Author: zingwena-softwares <warrenzingwena@gmail.com>
+Date:   Tue Apr 25 17:20:19 2023 +0200
+
+    services and controller skecth
+
+commit fb073d3597931fffe4b92eb70324d12922427d5a
+Author: zingwena-softwares <warrenzingwena@gmail.com>
+Date:   Tue Apr 25 16:35:10 2023 +0200
+
+    creating sketch repos, services, and models
+
+commit 3876d7077386eb967337e3b7cc0b43471c42df52
+Author: zingwena-softwares <warrenzingwena@gmail.com>
+Date:   Tue Apr 25 16:07:32 2023 +0200
+
+    first commit
