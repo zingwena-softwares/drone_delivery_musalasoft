@@ -1,0 +1,120 @@
+{
+	"info": {
+		"_postman_id": "958228d2-f58f-4598-8e44-103a9f5ba099",
+		"name": "delivery_drone_musalasoft_postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "12409093",
+		"_collection_link": "https://martian-water-306089.postman.co/workspace/Warren-Zingwena~cb81ff3d-c321-47b1-bc8a-c073163212fb/collection/12409093-958228d2-f58f-4598-8e44-103a9f5ba099?action=share&creator=12409093&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "Get Available Drones",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/drone/getavailable"
+			},
+			"response": []
+		},
+		{
+			"name": "Register Drone",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"serialNumber\": \"rt033p0042\",\n    \"weight\": 300,\n    \"capacity\":78,\n    \"state\":\"IDLE\",\n    \"model\":\"LIGHTWEIGHT\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/drone/register"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Drone Battery Level",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/drone/getcapacitybyserial/w78888290"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Drone Medication",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/drone/getmedications/w78888290"
+			},
+			"response": []
+		},
+		{
+			"name": "Load Drone",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/drone/loaddrone?droneSerial=w78888290&medicationCodes=00005665556,0000655",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"drone",
+						"loaddrone"
+					],
+					"query": [
+						{
+							"key": "droneSerial",
+							"value": "w78888290"
+						},
+						{
+							"key": "medicationCodes",
+							"value": "00005665556,0000655"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Medication",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"code\": \"38290675\",\n    \"name\": \"Pain_Ease\",\n    \"picture\":\"image string url\",\n    \"weight\":345\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/medication/register"
+			},
+			"response": []
+		},
+		{
+			"name": "GetDrone By State",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/drone/getbystate/IDLE"
+			},
+			"response": []
+		}
+	]
+}
