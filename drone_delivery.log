@@ -247,3 +247,507 @@ org.springframework.context.NoSuchMessageException: No message found under code 
 2023-04-28 10:56:43.845  INFO 18863 --- [task-33] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
 2023-04-28 10:56:43.845  INFO 18863 --- [task-33] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
 2023-04-28 10:56:43.846  INFO 18863 --- [task-33] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 10:57:43.839  INFO 18863 --- [task-34] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 10:57
+2023-04-28 10:57:43.845  INFO 18863 --- [task-34] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 10:57:43.846  INFO 18863 --- [task-34] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 10:57:43.846  INFO 18863 --- [task-34] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 10:57:43.846  INFO 18863 --- [task-34] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 10:58:43.838  INFO 18863 --- [task-35] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 10:58
+2023-04-28 10:58:43.844  INFO 18863 --- [task-35] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 10:58:43.845  INFO 18863 --- [task-35] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 10:58:43.845  INFO 18863 --- [task-35] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 10:58:43.845  INFO 18863 --- [task-35] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 10:59:43.839  INFO 18863 --- [task-36] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 10:59
+2023-04-28 10:59:43.848  INFO 18863 --- [task-36] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 10:59:43.848  INFO 18863 --- [task-36] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 10:59:43.849  INFO 18863 --- [task-36] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 10:59:43.849  INFO 18863 --- [task-36] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:00:43.838  INFO 18863 --- [task-37] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:00
+2023-04-28 11:00:43.845  INFO 18863 --- [task-37] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:00:43.846  INFO 18863 --- [task-37] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:00:43.846  INFO 18863 --- [task-37] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:00:43.846  INFO 18863 --- [task-37] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:01:43.836  INFO 18863 --- [task-38] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:01
+2023-04-28 11:01:43.837  INFO 18863 --- [task-38] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:01:43.838  INFO 18863 --- [task-38] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:01:43.838  INFO 18863 --- [task-38] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:01:43.838  INFO 18863 --- [task-38] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:02:43.838  INFO 18863 --- [task-39] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:02
+2023-04-28 11:02:43.846  INFO 18863 --- [task-39] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:02:43.847  INFO 18863 --- [task-39] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:02:43.847  INFO 18863 --- [task-39] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:02:43.848  INFO 18863 --- [task-39] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:03:43.838  INFO 18863 --- [task-40] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:03
+2023-04-28 11:03:43.844  INFO 18863 --- [task-40] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:03:43.844  INFO 18863 --- [task-40] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:03:43.845  INFO 18863 --- [task-40] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:03:43.845  INFO 18863 --- [task-40] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:04:43.838  INFO 18863 --- [task-41] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:04
+2023-04-28 11:04:43.844  INFO 18863 --- [task-41] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:04:43.845  INFO 18863 --- [task-41] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:04:43.845  INFO 18863 --- [task-41] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:04:43.845  INFO 18863 --- [task-41] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:05:43.839  INFO 18863 --- [task-42] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:05
+2023-04-28 11:05:43.846  INFO 18863 --- [task-42] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:05:43.847  INFO 18863 --- [task-42] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:05:43.847  INFO 18863 --- [task-42] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:05:43.848  INFO 18863 --- [task-42] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:06:43.839  INFO 18863 --- [task-43] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:06
+2023-04-28 11:06:43.845  INFO 18863 --- [task-43] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:06:43.845  INFO 18863 --- [task-43] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:06:43.846  INFO 18863 --- [task-43] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:06:43.862  INFO 18863 --- [task-43] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:07:43.837  INFO 18863 --- [task-44] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:07
+2023-04-28 11:07:43.842  INFO 18863 --- [task-44] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:07:43.842  INFO 18863 --- [task-44] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:07:43.842  INFO 18863 --- [task-44] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:07:43.842  INFO 18863 --- [task-44] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:08:43.839  INFO 18863 --- [task-45] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:08
+2023-04-28 11:08:43.846  INFO 18863 --- [task-45] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:08:43.846  INFO 18863 --- [task-45] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:08:43.847  INFO 18863 --- [task-45] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:08:43.847  INFO 18863 --- [task-45] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:09:43.839  INFO 18863 --- [task-46] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:09
+2023-04-28 11:09:43.845  INFO 18863 --- [task-46] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:09:43.845  INFO 18863 --- [task-46] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:09:43.846  INFO 18863 --- [task-46] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:09:43.846  INFO 18863 --- [task-46] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:10:43.839  INFO 18863 --- [task-47] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:10
+2023-04-28 11:10:43.845  INFO 18863 --- [task-47] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:10:43.845  INFO 18863 --- [task-47] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:10:43.845  INFO 18863 --- [task-47] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:10:43.845  INFO 18863 --- [task-47] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:11:43.839  INFO 18863 --- [task-48] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:11
+2023-04-28 11:11:43.845  INFO 18863 --- [task-48] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:11:43.845  INFO 18863 --- [task-48] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:11:43.845  INFO 18863 --- [task-48] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:11:43.845  INFO 18863 --- [task-48] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:12:43.838  INFO 18863 --- [task-49] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:12
+2023-04-28 11:12:43.843  INFO 18863 --- [task-49] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:12:43.843  INFO 18863 --- [task-49] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:12:43.844  INFO 18863 --- [task-49] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:12:43.844  INFO 18863 --- [task-49] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:13:43.839  INFO 18863 --- [task-50] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:13
+2023-04-28 11:13:43.845  INFO 18863 --- [task-50] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:13:43.845  INFO 18863 --- [task-50] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:13:43.846  INFO 18863 --- [task-50] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:13:43.846  INFO 18863 --- [task-50] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:14:43.839  INFO 18863 --- [task-51] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:14
+2023-04-28 11:14:43.845  INFO 18863 --- [task-51] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:14:43.846  INFO 18863 --- [task-51] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:14:43.846  INFO 18863 --- [task-51] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:14:43.846  INFO 18863 --- [task-51] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:15:43.838  INFO 18863 --- [task-52] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:15
+2023-04-28 11:15:43.843  INFO 18863 --- [task-52] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:15:43.843  INFO 18863 --- [task-52] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:15:43.843  INFO 18863 --- [task-52] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:15:43.844  INFO 18863 --- [task-52] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:16:43.839  INFO 18863 --- [task-53] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:16
+2023-04-28 11:16:43.845  INFO 18863 --- [task-53] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:16:43.845  INFO 18863 --- [task-53] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:16:43.846  INFO 18863 --- [task-53] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:16:43.846  INFO 18863 --- [task-53] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:16:43.847  INFO 18863 --- [task-53] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:17:43.839  INFO 18863 --- [task-54] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:17
+2023-04-28 11:17:43.845  INFO 18863 --- [task-54] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:17:43.845  INFO 18863 --- [task-54] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:17:43.846  INFO 18863 --- [task-54] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:17:43.846  INFO 18863 --- [task-54] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:17:43.846  INFO 18863 --- [task-54] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:18:43.838  INFO 18863 --- [task-55] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:18
+2023-04-28 11:18:43.845  INFO 18863 --- [task-55] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:18:43.846  INFO 18863 --- [task-55] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:18:43.847  INFO 18863 --- [task-55] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:18:43.847  INFO 18863 --- [task-55] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:18:43.847  INFO 18863 --- [task-55] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:19:43.838  INFO 18863 --- [task-56] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:19
+2023-04-28 11:19:43.846  INFO 18863 --- [task-56] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:19:43.847  INFO 18863 --- [task-56] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:19:43.847  INFO 18863 --- [task-56] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:19:43.847  INFO 18863 --- [task-56] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:19:43.848  INFO 18863 --- [task-56] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:20:43.839  INFO 18863 --- [task-57] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:20
+2023-04-28 11:20:43.845  INFO 18863 --- [task-57] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:20:43.845  INFO 18863 --- [task-57] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:20:43.845  INFO 18863 --- [task-57] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:20:43.846  INFO 18863 --- [task-57] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:20:43.846  INFO 18863 --- [task-57] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:21:43.839  INFO 18863 --- [task-58] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:21
+2023-04-28 11:21:43.845  INFO 18863 --- [task-58] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:21:43.845  INFO 18863 --- [task-58] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:21:43.846  INFO 18863 --- [task-58] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:21:43.846  INFO 18863 --- [task-58] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:21:43.846  INFO 18863 --- [task-58] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:22:43.838  INFO 18863 --- [task-59] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:22
+2023-04-28 11:22:43.845  INFO 18863 --- [task-59] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:22:43.845  INFO 18863 --- [task-59] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:22:43.846  INFO 18863 --- [task-59] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:22:43.846  INFO 18863 --- [task-59] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:22:43.846  INFO 18863 --- [task-59] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:23:43.839  INFO 18863 --- [task-60] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:23
+2023-04-28 11:23:43.843  INFO 18863 --- [task-60] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:23:43.843  INFO 18863 --- [task-60] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:23:43.843  INFO 18863 --- [task-60] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:23:43.843  INFO 18863 --- [task-60] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:23:43.843  INFO 18863 --- [task-60] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:24:43.839  INFO 18863 --- [task-61] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:24
+2023-04-28 11:24:43.845  INFO 18863 --- [task-61] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:24:43.846  INFO 18863 --- [task-61] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:24:43.846  INFO 18863 --- [task-61] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:24:43.846  INFO 18863 --- [task-61] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:24:43.846  INFO 18863 --- [task-61] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:25:43.839  INFO 18863 --- [task-62] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:25
+2023-04-28 11:25:43.845  INFO 18863 --- [task-62] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:25:43.846  INFO 18863 --- [task-62] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:25:43.846  INFO 18863 --- [task-62] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:25:43.847  INFO 18863 --- [task-62] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:25:43.847  INFO 18863 --- [task-62] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:26:43.838  INFO 18863 --- [task-63] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:26
+2023-04-28 11:26:43.842  INFO 18863 --- [task-63] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:26:43.843  INFO 18863 --- [task-63] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:26:43.843  INFO 18863 --- [task-63] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:26:43.843  INFO 18863 --- [task-63] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:26:43.843  INFO 18863 --- [task-63] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:27:43.839  INFO 18863 --- [task-64] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:27
+2023-04-28 11:27:43.845  INFO 18863 --- [task-64] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:27:43.846  INFO 18863 --- [task-64] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:27:43.846  INFO 18863 --- [task-64] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:27:43.846  INFO 18863 --- [task-64] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:27:43.846  INFO 18863 --- [task-64] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:28:43.839  INFO 18863 --- [task-65] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:28
+2023-04-28 11:28:43.849  INFO 18863 --- [task-65] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:28:43.850  INFO 18863 --- [task-65] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:28:43.850  INFO 18863 --- [task-65] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:28:43.851  INFO 18863 --- [task-65] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:28:43.851  INFO 18863 --- [task-65] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:29:43.838  INFO 18863 --- [task-66] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:29
+2023-04-28 11:29:43.843  INFO 18863 --- [task-66] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:29:43.843  INFO 18863 --- [task-66] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:29:43.843  INFO 18863 --- [task-66] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:29:43.843  INFO 18863 --- [task-66] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:29:43.843  INFO 18863 --- [task-66] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:30:43.839  INFO 18863 --- [task-67] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:30
+2023-04-28 11:30:43.844  INFO 18863 --- [task-67] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:30:43.844  INFO 18863 --- [task-67] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:30:43.844  INFO 18863 --- [task-67] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:30:43.844  INFO 18863 --- [task-67] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:30:43.844  INFO 18863 --- [task-67] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:31:43.838  INFO 18863 --- [task-68] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:31
+2023-04-28 11:31:43.843  INFO 18863 --- [task-68] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:31:43.844  INFO 18863 --- [task-68] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:31:43.844  INFO 18863 --- [task-68] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:31:43.844  INFO 18863 --- [task-68] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:31:43.844  INFO 18863 --- [task-68] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:32:43.840  INFO 18863 --- [task-69] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:32
+2023-04-28 11:32:43.849  INFO 18863 --- [task-69] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:32:43.849  INFO 18863 --- [task-69] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:32:43.850  INFO 18863 --- [task-69] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:32:43.850  INFO 18863 --- [task-69] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:32:43.850  INFO 18863 --- [task-69] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:33:43.838  INFO 18863 --- [task-70] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:33
+2023-04-28 11:33:43.844  INFO 18863 --- [task-70] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:33:43.845  INFO 18863 --- [task-70] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:33:43.845  INFO 18863 --- [task-70] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:33:43.845  INFO 18863 --- [task-70] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:33:43.845  INFO 18863 --- [task-70] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:34:07.044  INFO 18863 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28 11:34:07.046  INFO 18863 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-28 11:34:07.049  INFO 18863 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-28 11:34:13.222  INFO 23198 --- [main] c.m.d.DroneDeliveryApplication           : Starting DroneDeliveryApplication using Java 16.0.2 on pavilion with PID 23198 (/home/warren/Documents/drone_delivery_musalasoft/target/classes started by warren in /home/warren/Documents/drone_delivery_musalasoft)
+2023-04-28 11:34:13.225  INFO 23198 --- [main] c.m.d.DroneDeliveryApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-04-28 11:34:14.017  INFO 23198 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-28 11:34:14.081  INFO 23198 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 2 JPA repository interfaces.
+2023-04-28 11:34:14.739  INFO 23198 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28 11:34:14.750  INFO 23198 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28 11:34:14.750  INFO 23198 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-28 11:34:14.867  INFO 23198 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28 11:34:14.867  INFO 23198 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1575 ms
+2023-04-28 11:34:15.037  INFO 23198 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-28 11:34:15.077  INFO 23198 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-28 11:34:15.233  INFO 23198 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-28 11:34:15.328  INFO 23198 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-28 11:34:15.664  INFO 23198 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-28 11:34:15.688  INFO 23198 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-28 11:34:16.233  INFO 23198 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-28 11:34:16.241  INFO 23198 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28 11:34:16.698  WARN 23198 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-28 11:34:16.980  INFO 23198 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28 11:34:16.988  INFO 23198 --- [main] c.m.d.DroneDeliveryApplication           : Started DroneDeliveryApplication in 4.292 seconds (JVM running for 4.697)
+2023-04-28 11:34:17.002  INFO 23198 --- [task-1] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:34
+2023-04-28 11:34:17.032  INFO 23198 --- [task-1] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:34:17.032  INFO 23198 --- [task-1] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:34:17.032  INFO 23198 --- [task-1] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:34:17.032  INFO 23198 --- [task-1] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:34:17.032  INFO 23198 --- [task-1] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:35:16.988  INFO 23198 --- [task-2] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:35
+2023-04-28 11:35:16.990  INFO 23198 --- [task-2] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:35:16.990  INFO 23198 --- [task-2] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:35:16.990  INFO 23198 --- [task-2] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:35:16.990  INFO 23198 --- [task-2] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:35:16.990  INFO 23198 --- [task-2] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:36:16.991  INFO 23198 --- [task-3] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:36
+2023-04-28 11:36:17.001  INFO 23198 --- [task-3] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:36:17.003  INFO 23198 --- [task-3] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:36:17.003  INFO 23198 --- [task-3] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:36:17.004  INFO 23198 --- [task-3] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:36:17.005  INFO 23198 --- [task-3] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:37:16.450  INFO 23198 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28 11:37:16.450  INFO 23198 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28 11:37:16.451  INFO 23198 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-28 11:37:16.990  INFO 23198 --- [task-4] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:37
+2023-04-28 11:37:16.998  INFO 23198 --- [task-4] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:37:16.999  INFO 23198 --- [task-4] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:37:17.000  INFO 23198 --- [task-4] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:37:17.000  INFO 23198 --- [task-4] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:37:17.000  INFO 23198 --- [task-4] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:38:17.001  INFO 23198 --- [task-5] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:38
+2023-04-28 11:38:17.004  INFO 23198 --- [task-5] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:38:17.004  INFO 23198 --- [task-5] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:38:17.004  INFO 23198 --- [task-5] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:38:17.004  INFO 23198 --- [task-5] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:38:17.004  INFO 23198 --- [task-5] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:38:22.974  WARN 23198 --- [http-nio-8080-exec-6] o.s.c.s.ResourceBundleMessageSource      : ResourceBundle [messages/messages] not found for MessageSource: Can't find bundle for base name messages/messages, locale en
+2023-04-28 11:38:23.696 ERROR 23198 --- [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.context.NoSuchMessageException: No message found under code 'medication_overload' for locale 'en'.] with root cause
+
+org.springframework.context.NoSuchMessageException: No message found under code 'medication_overload' for locale 'en'.
+	at org.springframework.context.support.AbstractMessageSource.getMessage(AbstractMessageSource.java:161) ~[spring-context-5.3.27.jar:5.3.27]
+	at com.musalasoft.drone_delivery.exception.ExceptionMessageCreator.createMessage(ExceptionMessageCreator.java:17) ~[classes/:na]
+	at com.musalasoft.drone_delivery.service.DroneServiceImpl.lambda$loadDroneWithMedications$2(DroneServiceImpl.java:72) ~[classes/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at com.musalasoft.drone_delivery.service.DroneServiceImpl.loadDroneWithMedications(DroneServiceImpl.java:57) ~[classes/:na]
+	at com.musalasoft.drone_delivery.service.DroneServiceImpl$$FastClassBySpringCGLIB$$25986cfd.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.27.jar:5.3.27]
+	at com.musalasoft.drone_delivery.service.DroneServiceImpl$$EnhancerBySpringCGLIB$$2e00ee9.loadDroneWithMedications(<generated>) ~[classes/:na]
+	at com.musalasoft.drone_delivery.api.DroneController.loadDroneWithMedication(DroneController.java:58) ~[classes/:na]
+	at com.musalasoft.drone_delivery.api.DroneController$$FastClassBySpringCGLIB$$f6783df9.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:123) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.27.jar:5.3.27]
+	at com.musalasoft.drone_delivery.api.DroneController$$EnhancerBySpringCGLIB$$ab967e5e.loadDroneWithMedication(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:558) ~[tomcat-embed-core-9.0.74.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.74.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2023-04-28 11:39:16.991  INFO 23198 --- [task-6] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:39
+2023-04-28 11:39:17.000  INFO 23198 --- [task-6] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:39:17.001  INFO 23198 --- [task-6] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:39:17.002  INFO 23198 --- [task-6] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:39:17.002  INFO 23198 --- [task-6] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:39:17.003  INFO 23198 --- [task-6] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:40:16.992  INFO 23198 --- [task-7] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:40
+2023-04-28 11:40:17.001  INFO 23198 --- [task-7] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:40:17.002  INFO 23198 --- [task-7] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:40:17.003  INFO 23198 --- [task-7] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:40:17.003  INFO 23198 --- [task-7] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:40:17.003  INFO 23198 --- [task-7] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:41:16.991  INFO 23198 --- [task-8] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:41
+2023-04-28 11:41:17.002  INFO 23198 --- [task-8] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:41:17.003  INFO 23198 --- [task-8] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:41:17.003  INFO 23198 --- [task-8] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:41:17.003  INFO 23198 --- [task-8] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:41:17.004  INFO 23198 --- [task-8] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:42:16.992  INFO 23198 --- [task-9] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:42
+2023-04-28 11:42:17.000  INFO 23198 --- [task-9] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:42:17.001  INFO 23198 --- [task-9] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:42:17.002  INFO 23198 --- [task-9] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:42:17.002  INFO 23198 --- [task-9] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:42:17.003  INFO 23198 --- [task-9] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:43:16.991  INFO 23198 --- [task-10] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:43
+2023-04-28 11:43:17.000  INFO 23198 --- [task-10] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:43:17.001  INFO 23198 --- [task-10] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:43:17.001  INFO 23198 --- [task-10] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:43:17.001  INFO 23198 --- [task-10] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:43:17.002  INFO 23198 --- [task-10] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:44:16.992  INFO 23198 --- [task-11] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:44
+2023-04-28 11:44:16.999  INFO 23198 --- [task-11] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:44:17.000  INFO 23198 --- [task-11] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:44:17.000  INFO 23198 --- [task-11] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:44:17.001  INFO 23198 --- [task-11] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:44:17.001  INFO 23198 --- [task-11] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:45:16.991  INFO 23198 --- [task-12] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:45
+2023-04-28 11:45:17.000  INFO 23198 --- [task-12] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:45:17.001  INFO 23198 --- [task-12] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:45:17.002  INFO 23198 --- [task-12] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:45:17.002  INFO 23198 --- [task-12] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:45:17.003  INFO 23198 --- [task-12] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:46:16.991  INFO 23198 --- [task-13] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:46
+2023-04-28 11:46:16.999  INFO 23198 --- [task-13] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:46:16.999  INFO 23198 --- [task-13] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:46:17.000  INFO 23198 --- [task-13] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:46:17.000  INFO 23198 --- [task-13] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:46:17.000  INFO 23198 --- [task-13] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:47:16.991  INFO 23198 --- [task-14] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:47
+2023-04-28 11:47:16.997  INFO 23198 --- [task-14] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:47:16.998  INFO 23198 --- [task-14] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:47:16.998  INFO 23198 --- [task-14] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:47:16.999  INFO 23198 --- [task-14] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:47:16.999  INFO 23198 --- [task-14] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:48:16.991  INFO 23198 --- [task-15] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:48
+2023-04-28 11:48:17.000  INFO 23198 --- [task-15] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:48:17.001  INFO 23198 --- [task-15] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:48:17.001  INFO 23198 --- [task-15] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:48:17.001  INFO 23198 --- [task-15] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:48:17.002  INFO 23198 --- [task-15] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:49:16.992  INFO 23198 --- [task-16] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:49
+2023-04-28 11:49:17.000  INFO 23198 --- [task-16] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:49:17.001  INFO 23198 --- [task-16] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:49:17.001  INFO 23198 --- [task-16] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:49:17.001  INFO 23198 --- [task-16] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:49:17.002  INFO 23198 --- [task-16] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:50:16.992  INFO 23198 --- [task-17] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:50
+2023-04-28 11:50:17.000  INFO 23198 --- [task-17] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:50:17.001  INFO 23198 --- [task-17] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:50:17.001  INFO 23198 --- [task-17] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:50:17.002  INFO 23198 --- [task-17] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:50:17.003  INFO 23198 --- [task-17] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:51:16.991  INFO 23198 --- [task-18] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:51
+2023-04-28 11:51:16.995  INFO 23198 --- [task-18] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:51:16.995  INFO 23198 --- [task-18] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:51:16.995  INFO 23198 --- [task-18] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:51:16.995  INFO 23198 --- [task-18] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:51:16.996  INFO 23198 --- [task-18] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:52:16.991  INFO 23198 --- [task-19] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:52
+2023-04-28 11:52:16.998  INFO 23198 --- [task-19] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:52:16.999  INFO 23198 --- [task-19] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:52:17.000  INFO 23198 --- [task-19] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:52:17.000  INFO 23198 --- [task-19] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:52:17.000  INFO 23198 --- [task-19] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:53:16.991  INFO 23198 --- [task-20] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:53
+2023-04-28 11:53:17.000  INFO 23198 --- [task-20] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:53:17.000  INFO 23198 --- [task-20] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:53:17.001  INFO 23198 --- [task-20] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:53:17.001  INFO 23198 --- [task-20] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:53:17.001  INFO 23198 --- [task-20] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:54:16.988  INFO 23198 --- [task-21] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:54
+2023-04-28 11:54:16.991  INFO 23198 --- [task-21] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:54:16.991  INFO 23198 --- [task-21] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:54:16.991  INFO 23198 --- [task-21] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:54:16.991  INFO 23198 --- [task-21] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:54:16.991  INFO 23198 --- [task-21] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:55:16.990  INFO 23198 --- [task-22] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:55
+2023-04-28 11:55:16.996  INFO 23198 --- [task-22] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:55:16.996  INFO 23198 --- [task-22] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:55:16.997  INFO 23198 --- [task-22] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:55:16.997  INFO 23198 --- [task-22] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:55:16.997  INFO 23198 --- [task-22] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:56:16.990  INFO 23198 --- [task-23] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:56
+2023-04-28 11:56:16.997  INFO 23198 --- [task-23] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:56:16.997  INFO 23198 --- [task-23] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:56:16.998  INFO 23198 --- [task-23] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:56:16.998  INFO 23198 --- [task-23] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:56:16.998  INFO 23198 --- [task-23] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:57:16.990  INFO 23198 --- [task-24] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:57
+2023-04-28 11:57:16.997  INFO 23198 --- [task-24] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:57:16.997  INFO 23198 --- [task-24] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:57:16.997  INFO 23198 --- [task-24] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:57:16.998  INFO 23198 --- [task-24] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:57:16.998  INFO 23198 --- [task-24] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:58:16.991  INFO 23198 --- [task-25] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:58
+2023-04-28 11:58:16.998  INFO 23198 --- [task-25] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:58:16.999  INFO 23198 --- [task-25] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:58:17.000  INFO 23198 --- [task-25] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:58:17.000  INFO 23198 --- [task-25] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:58:17.000  INFO 23198 --- [task-25] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 11:59:16.991  INFO 23198 --- [task-26] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 11:59
+2023-04-28 11:59:16.994  INFO 23198 --- [task-26] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 11:59:16.994  INFO 23198 --- [task-26] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 11:59:16.995  INFO 23198 --- [task-26] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 11:59:16.995  INFO 23198 --- [task-26] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 11:59:16.995  INFO 23198 --- [task-26] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 12:00:16.991  INFO 23198 --- [task-27] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 12:00
+2023-04-28 12:00:16.998  INFO 23198 --- [task-27] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 12:00:16.998  INFO 23198 --- [task-27] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 12:00:16.999  INFO 23198 --- [task-27] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 12:00:16.999  INFO 23198 --- [task-27] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 12:00:16.999  INFO 23198 --- [task-27] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 12:01:16.991  INFO 23198 --- [task-28] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 12:01
+2023-04-28 12:01:16.995  INFO 23198 --- [task-28] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 12:01:16.995  INFO 23198 --- [task-28] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 12:01:16.995  INFO 23198 --- [task-28] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 12:01:16.995  INFO 23198 --- [task-28] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 12:01:16.995  INFO 23198 --- [task-28] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 12:02:16.990  INFO 23198 --- [task-29] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 12:02
+2023-04-28 12:02:16.996  INFO 23198 --- [task-29] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 12:02:16.997  INFO 23198 --- [task-29] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 12:02:16.997  INFO 23198 --- [task-29] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 12:02:16.997  INFO 23198 --- [task-29] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 12:02:16.997  INFO 23198 --- [task-29] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 12:03:16.991  INFO 23198 --- [task-30] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 12:03
+2023-04-28 12:03:16.998  INFO 23198 --- [task-30] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 12:03:16.998  INFO 23198 --- [task-30] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 12:03:16.999  INFO 23198 --- [task-30] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 12:03:16.999  INFO 23198 --- [task-30] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 12:03:17.000  INFO 23198 --- [task-30] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 12:04:16.987  INFO 23198 --- [task-31] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 12:04
+2023-04-28 12:04:16.989  INFO 23198 --- [task-31] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 12:04:16.990  INFO 23198 --- [task-31] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 12:04:16.990  INFO 23198 --- [task-31] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 12:04:16.990  INFO 23198 --- [task-31] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 12:04:16.990  INFO 23198 --- [task-31] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-28 12:05:16.990  INFO 23198 --- [task-32] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/28 12:05
+2023-04-28 12:05:16.996  INFO 23198 --- [task-32] c.m.d.service.DroneServiceImpl           : serial number - rt03370042, capacity - 78
+2023-04-28 12:05:16.996  INFO 23198 --- [task-32] c.m.d.service.DroneServiceImpl           : serial number - rt033p0042, capacity - 78
+2023-04-28 12:05:16.996  INFO 23198 --- [task-32] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-28 12:05:16.997  INFO 23198 --- [task-32] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-28 12:05:16.997  INFO 23198 --- [task-32] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100

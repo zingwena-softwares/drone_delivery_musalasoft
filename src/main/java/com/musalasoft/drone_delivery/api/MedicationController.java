@@ -15,7 +15,7 @@ import javax.validation.Valid;
  */
 @Validated
 @RestController
-@RequestMapping("/api/medication")
+@RequestMapping("/api/v1/medication")
 @RequiredArgsConstructor
 public class MedicationController {
 

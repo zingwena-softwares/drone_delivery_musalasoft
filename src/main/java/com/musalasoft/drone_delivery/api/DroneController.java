@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 @Validated
 @RestController
 @AllArgsConstructor
-@RequestMapping("api/drone")
+@RequestMapping("api/v1/drone")
 public class DroneController {
 	private final DroneService droneService;
 	@GetMapping
