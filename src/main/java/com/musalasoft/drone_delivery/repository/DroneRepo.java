@@ -7,7 +7,9 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import java.util.List;
 
-
+/**
+ * @author Warren Zingwena
+ */
 public interface DroneRepo extends JpaRepository<Drone, String> {
 
 	List<Drone> findByState(State state);

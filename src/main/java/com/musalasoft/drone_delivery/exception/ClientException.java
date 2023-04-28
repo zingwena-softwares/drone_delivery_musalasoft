@@ -2,7 +2,9 @@ package com.musalasoft.drone_delivery.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-
+/**
+ * @author Warren Zingwena
+ */
 @Getter
 @AllArgsConstructor
 public class ClientException extends RuntimeException {

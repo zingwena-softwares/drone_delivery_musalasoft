@@ -9,7 +9,9 @@ import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
-
+/**
+ * @author Warren Zingwena
+ */
 @Service
 @Transactional
 @RequiredArgsConstructor

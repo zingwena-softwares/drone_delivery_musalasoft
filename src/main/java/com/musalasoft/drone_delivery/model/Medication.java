@@ -6,7 +6,9 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import javax.validation.constraints.Pattern;
-
+/**
+ * @author Warren Zingwena
+ */
 @Entity
 @Setter
 @Getter

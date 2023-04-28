@@ -6,7 +6,9 @@ import lombok.NoArgsConstructor;
 
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Positive;
-
+/**
+ * @author Warren Zingwena
+ */
 @Getter
 @NoArgsConstructor
 public class MedicationDto {

@@ -16,7 +16,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 import java.util.Locale;
 
 import static org.modelmapper.config.Configuration.AccessLevel.PRIVATE;
-
+/**
+ * @author Warren Zingwena
+ */
 @Getter
 @Setter
 @Configuration

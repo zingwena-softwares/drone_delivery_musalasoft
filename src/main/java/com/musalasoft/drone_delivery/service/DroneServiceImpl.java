@@ -19,7 +19,9 @@ import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.logging.Logger;
 import static com.musalasoft.drone_delivery.constants.ServiceConstants.*;
-
+/**
+ * @author Warren Zingwena
+ */
 @Service
 @Transactional
 @RequiredArgsConstructor
@@ -48,11 +50,7 @@ public class DroneServiceImpl implements DroneService {
 		return droneRepo.findByState(state);
 	};
 
-	/*
-	* IDLE -> LOADING -> LOADED
-	*
-	* increase WEIGHT
-	* */
+
 	@Override
 	public  String  loadDroneWithMedications(String droneSerial, List<String> medicationCodes) {
 		Drone d = droneRepo.findById(droneSerial).orElseThrow(() -> ClientException.of(messageCreator.createMessage(DRONE_SERIAL_NUMBER_NOT_FOUND)));

@@ -16,6 +16,9 @@ import org.springframework.test.context.junit4.SpringRunner;
 import static com.musalasoft.drone_delivery.model.enums.Model.LIGHTWEIGHT;
 import static com.musalasoft.drone_delivery.model.enums.State.IDLE;
 import static org.mockito.Mockito.when;
+/**
+ * @author Warren Zingwena
+ */
 @RunWith(SpringRunner.class)
 @SpringBootTest
 class MedicationControllerTest {

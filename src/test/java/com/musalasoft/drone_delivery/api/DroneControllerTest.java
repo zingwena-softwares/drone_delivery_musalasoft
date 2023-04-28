@@ -1,10 +1,8 @@
 package com.musalasoft.drone_delivery.api;
 
-import com.musalasoft.drone_delivery.exception.ClientException;
 import com.musalasoft.drone_delivery.exception.ExceptionMessageCreator;
 import com.musalasoft.drone_delivery.model.Drone;
 import com.musalasoft.drone_delivery.model.Medication;
-import com.musalasoft.drone_delivery.model.enums.State;
 import com.musalasoft.drone_delivery.repository.DroneRepo;
 import com.musalasoft.drone_delivery.repository.MedicationRepo;
 import com.musalasoft.drone_delivery.service.DroneService;
@@ -22,13 +20,14 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static com.musalasoft.drone_delivery.constants.ServiceConstants.*;
 import static com.musalasoft.drone_delivery.model.enums.Model.LIGHTWEIGHT;
 import static com.musalasoft.drone_delivery.model.enums.State.IDLE;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.mockito.Mockito.when;
-
+/**
+ * @author Warren Zingwena
+ */
 @RunWith(SpringRunner.class)
 @SpringBootTest
 class DroneControllerTest {

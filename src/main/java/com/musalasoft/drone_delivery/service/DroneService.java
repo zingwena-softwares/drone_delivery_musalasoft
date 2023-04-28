@@ -5,7 +5,9 @@ import com.musalasoft.drone_delivery.model.enums.State;
 import com.musalasoft.drone_delivery.service.dto.DroneDto;
 
 import java.util.List;
-
+/**
+ * @author Warren Zingwena
+ */
 public interface DroneService {
 
 	List<Drone>  getAllDrones();

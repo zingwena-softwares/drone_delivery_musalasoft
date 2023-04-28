@@ -9,7 +9,9 @@ import javax.persistence.Enumerated;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;
-
+/**
+ * @author Warren Zingwena
+ */
 @Getter
 public class DroneDto {
 

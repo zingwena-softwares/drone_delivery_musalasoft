@@ -4176,3 +4176,18 @@ org.springframework.context.NoSuchMessageException: No message found under code 
 2023-04-27 18:50:52.666  INFO 103503 --- [task-14] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
 2023-04-27 18:50:52.667  INFO 103503 --- [task-14] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
 2023-04-27 18:50:52.667  INFO 103503 --- [task-14] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-27 18:51:52.660  INFO 103503 --- [task-15] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:51
+2023-04-27 18:51:52.666  INFO 103503 --- [task-15] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-27 18:51:52.667  INFO 103503 --- [task-15] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:51:52.667  INFO 103503 --- [task-15] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-27 18:52:52.662  INFO 103503 --- [task-16] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:52
+2023-04-27 18:52:52.671  INFO 103503 --- [task-16] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-27 18:52:52.672  INFO 103503 --- [task-16] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:52:52.672  INFO 103503 --- [task-16] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-27 18:53:52.658  INFO 103503 --- [task-17] c.m.d.service.DroneServiceImpl           : Drone capacity check at 2023/04/27 18:53
+2023-04-27 18:53:52.660  INFO 103503 --- [task-17] c.m.d.service.DroneServiceImpl           : serial number - w78888290, capacity - 100
+2023-04-27 18:53:52.661  INFO 103503 --- [task-17] c.m.d.service.DroneServiceImpl           : serial number - w788882pl90, capacity - 100
+2023-04-27 18:53:52.661  INFO 103503 --- [task-17] c.m.d.service.DroneServiceImpl           : serial number - w8978888290, capacity - 100
+2023-04-27 18:53:55.716  INFO 103503 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 18:53:55.718  INFO 103503 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-27 18:53:55.723  INFO 103503 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
